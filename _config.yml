@@ -10,4 +10,4 @@ github_username:  yzs981130
 
 # Build settings
 markdown: rdiscount
-highlighter: pygments
+highlighter: rouge
