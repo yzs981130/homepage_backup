@@ -9,5 +9,5 @@ twitter_username: yzs981130
 github_username:  yzs981130
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 highlighter: rouge
