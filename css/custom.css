@@ -1,0 +1,77 @@
+body, html, h1, h2, h3, h4, h5, h6, a, p{
+    font-family: "Microsoft YaHei","Open Sans","Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei", sans-serif;
+}
+
+.title_link{
+    color: #000000;
+    text-decoration: none;
+}
+.title_link:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.title_link:visited{
+	color: #000000;
+    text-decoration: none;
+}
+.title_link:focus{
+	color: #000000;
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+}
+
+.index_slide{
+    text-align: center;
+    position: relative;
+    overflow: auto;
+}
+
+.index_slide li{
+    list-style: none;
+}
+.index_slide ul li {
+    float: left;
+}
+#slide1{
+    background: url("../images/one.jpg");
+}
+.item_link{
+    text-decoration: none;
+}
+.item{
+    text-align: center;
+    height: auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.item:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.item_link{
+    text-decoration: none;
+    color: #000000;
+}
+.item_link:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.item_link:visited,
+.item_link:active,
+.item_link:focus{
+    text-decoration: none;
+}
+
+.announcement{
+	font-size: 1.2em;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
