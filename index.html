@@ -115,6 +115,7 @@
   <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258539650'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1258539650%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
   </div>
 <!-->
+<script type="text/javascript"> $(document).ready(function(){ $.getJSON("/ip.php", function(data){ var sideblock = $("#sideblock"); var ip = data.ip_addr, ip_family="Unknown"; if (ip.indexOf(':') >= 0) { ip_family = "IPv6"; } else if (ip.indexOf('.') >= 0) { ip_family = "IPv4"; } sideblock.find(".ip-family").text(ip_family); sideblock.find(".ip-addr").text(ip); }); }); </script> <p>您正在使用 <span class="ip-family"></span> 访问本站</p> <p>您的 <span class="ip-family"></span> 地址是: </p> <span class="ip-addr"></span>
 </body>
 </html>
 <script>
