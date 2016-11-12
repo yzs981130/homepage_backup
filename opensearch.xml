@@ -1,0 +1,8 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <InputEncoding>UTF-8</InputEncoding>
+    <ShortName>木叶吟</ShortName>
+    <Description>肾肾爱你啊</Description>
+<Url type="text/html" template="https://yezhisheng.com.cn/search/{searchTerms}/"/>
+</OpenSearchDescription>
